@@ -1,6 +1,12 @@
 package acnil
 
 type Game struct {
-	Id   int
+	Id   string
 	Name string
 }
+
+func LoadGames(file string) ([]Game, error) {
+
+}
+
+//cambiar acnil. por game
